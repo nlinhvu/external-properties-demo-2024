@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: external-properties-demo
+
+my-service.common-attributes:
+  author: Linh Vu
+  system-email: my_system@mail.com
+  read-timeout: 30s
+  threshold-limit: 1000.0
+  currency: EUR
+
+  supported-countries:
+    germany:
+      iso3-code: DEU
+      timezones:
+        - Europe/Berlin
+    spain:
+      iso3-code: ESP
+      timezones:
+        - Europe/Madrid
+        - Atlantic/Canary
+
+
